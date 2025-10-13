@@ -21,3 +21,9 @@ console.log("z --> " + z);
 z += 5;
 console.log("z --> " + z);
 
+// another way to use loops
+console.log("---- for in loop ----");
+const arr = [100, 200, 300];
+for (let i in arr) {
+    console.log(i);
+}
